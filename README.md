@@ -1,5 +1,5 @@
-# OO Language Comparsion
-###This is the final project for CMP_SC 4330/7330
+# OO Language Comparison
+### This is the final project for CMP_SC 4330/7330
 
 OO Languages:
 * JAVA
