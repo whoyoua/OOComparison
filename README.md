@@ -1,4 +1,9 @@
-# OOComparison
-My cool OO.
+# OOLanguageComparsion
+## This is the final project for CMP_SC 4330/7330
 
-This is where i will compare two OO languages.
+OO Languages:
+* JAVA
+* Swift
+
+Team member:
+* Mohan Li
