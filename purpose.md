@@ -1,5 +1,7 @@
 # Language Purpose
 
+[Go back to README.md](README.md)
+
 ## 1. Why was the language created?
 
 * JAVA
@@ -104,3 +106,5 @@
 
   There is a youtube video that compares Swift with Objective-C.
   [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/MIKA1W6c0eI/0.jpg)](http://www.youtube.com/watch?v=MIKA1W6c0eI)
+
+[Go back to README.md](README.md)
