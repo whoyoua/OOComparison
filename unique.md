@@ -111,7 +111,7 @@
 
     Apple claims that Swift "is the first industrial-quality systems programming language that is as expressive and enjoyable as a scripting language".
 
-  * [Tuples]<https://en.wikipedia.org/wiki/Tuple>
+  * [Tuple](https://en.wikipedia.org/wiki/Tuple)
 
     Swift tuples offer compound variables. A tuple lets users group multiple elements into a single compound variable. The values in a Swift tuple can be of any type and don't have to be the same type as each other.
 
