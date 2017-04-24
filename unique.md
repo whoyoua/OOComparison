@@ -126,5 +126,6 @@
   <https://en.wikipedia.org/wiki/Swift_(programming_language)#Features>
 
   10 Things You Should Know About Apple's Swift: <http://www.cio.com/article/2456100/mobile-development/10-things-you-should-know-about-apples-swift.html>
+  
 ---
 [Go back to README.md](README.md)
