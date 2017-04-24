@@ -44,7 +44,6 @@
 
 ---
  * Swift
-
   * [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
 
     Under the Cocoa and Cocoa Touch environments, many common classes were part of the [Foundation Kit](https://en.wikipedia.org/wiki/Foundation_Kit) library. This included the NSString string library (using Unicode), the NSArray and NSDictionary collection classes, and others.
@@ -53,9 +52,9 @@
 
     ```Objective-C
     NSString *str = @"hello,";
-str = [str stringByAppendingString:@" world"];
-
+    str = [str stringByAppendingString:@" world"];
     ```
+
     In Swift, many of these basic types have been promoted to the language's core, and can be manipulated directly. For instance, strings are invisibly bridged to NSString (when Foundation is imported) and can now be concatenated with the + operator, allowing greatly simplified syntax.
 
     ```Swift
