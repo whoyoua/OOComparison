@@ -38,13 +38,14 @@
 
   References:
 
-    Features of JAVA: <http://java.meritcampus.com/core-java-topics/java-and-internet-creating-java-applet>
+  Features of JAVA: <http://java.meritcampus.com/core-java-topics/java-and-internet-creating-java-applet>
 
-    Platform Independence in JAVA: <http://java.meritcampus.com/core-java-topics/java-and-internet-creating-java-applet>
+  Platform Independence in JAVA: <http://java.meritcampus.com/core-java-topics/java-and-internet-creating-java-applet>
 
 ---
  * Swift
-  * [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
+
+    * [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
 
     Under the Cocoa and Cocoa Touch environments, many common classes were part of the [Foundation Kit](https://en.wikipedia.org/wiki/Foundation_Kit) library. This included the NSString string library (using Unicode), the NSArray and NSDictionary collection classes, and others.
 
@@ -69,11 +70,11 @@
     str + = " world";
     ```
 
-  * File handling
+    * File handling
 
     Swift has file access control levels for symbols: **open**, **public**, **internal**, **fileprivate** and **private**. Compared with other object-oriented languages, these access controls ignore inheritance hierarchies: **private** indicates that a symbol is accessible only in the immediate scope, **fileprivate** indicates it is accessible only from within the file, **internal** indicates it is accessible within the containing module, **public** indicates it is accessible from any module, and **open** (only for classes and their methods) indicates that the class may be subclassed outside of the module.
 
-  * Optionals and chaining
+    * Optionals and chaining
 
     An important new feature in Swift is option types, which allow references or values to operate in a manner similar to the common pattern in C, where a pointer may refer to a value or may be null. This implies that non-optional types cannot result in a null-pointer error; the compiler can ensure this is not possible.
 
@@ -103,7 +104,7 @@
     //continue, knowing that leaseStart is not nil
     ```
 
-  * Debugging
+    * Debugging
 
     A key element of the Swift system is its ability to be cleanly debugged and run within the development environment, using a [read–eval–print loop (REPL)]<https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop>, giving it interactive properties more in common with the scripting abilities of [Python]<https://en.wikipedia.org/wiki/Python_(programming_language)> than traditional system programming languages. The REPL is further enhanced with the new concept **playgrounds**.
 
@@ -111,7 +112,7 @@
 
     Apple claims that Swift "is the first industrial-quality systems programming language that is as expressive and enjoyable as a scripting language".
 
-  * [Tuple](https://en.wikipedia.org/wiki/Tuple)
+    * [Tuple](https://en.wikipedia.org/wiki/Tuple)
 
     Swift tuples offer compound variables. A tuple lets users group multiple elements into a single compound variable. The values in a Swift tuple can be of any type and don't have to be the same type as each other.
 
