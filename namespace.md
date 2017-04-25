@@ -71,7 +71,7 @@
   import java.io.File;    // Now we can type File instead of java.io.File
   ```
 
-  To import an entire package of classes, follow import with the name of the package, the characters *, and a semicolon. In addition, if you want to use several other classes from the java.io package, just simply import the entire package:
+  To import an entire package of classes, follow import with the name of the package, the characters asterisk, and a semicolon. In addition, if you want to use several other classes from the java.io package, just simply import the entire package:
 
   ```JAVA
   import java.io.*;   // Now we can use simple names for all classes in java.io
@@ -90,7 +90,7 @@
 
 * Swift
 
-  To access items in one namespace from the code in another, users must first import the module containing the item by using the **import** declaration. The **import** declaration in its most basic form, consists of the import keyword followed by the name of the module that users wish to import:
+  To access items in one namespace from the code in another, users must first import the module containing the item by using the **import** declaration. The import declaration in its most basic form, consists of the import keyword followed by the name of the module that users wish to import:
 
   ```Swift
   import ModuleName
@@ -98,10 +98,10 @@
 
   By default, this imports everything in the named module and makes it accessible in the code. In addition to the basic form though, users can also import specific symbols from a module.
 
-  In this case, Swift can also use the **import** keyword and follow it with the kind of thing users want to import (class, function, variable etc), the name of the module users wish to import it from, and the name of the item users wish to import:
+  In this case, Swift can also use the **import** keyword and follow it with the kind of thing users want to **import** (class, function, variable etc), the name of the module users wish to import it from, and the name of the item users wish to import:
 
   ```Swift
-  import itemType ModuleName.ItemName
+  import itemType ModuleName.ItemName  
   ```
 
   When using this form, the item type can be one of:
