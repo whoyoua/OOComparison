@@ -16,7 +16,7 @@ Team member:
   * Is the language a reaction to a previous language or a replacement for another language?
 * [Unique features of the language](unique.md)
   * Does the language have any particularly unique features?
-* Name spaces
+* [Name spaces](namespace.md)
   * How are name spaces implemented?
   * How are name spaces used?
 * Types
