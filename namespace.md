@@ -101,8 +101,7 @@
   In this case, Swift can also use the **import** keyword and follow it with the kind of thing users want to **import** (class, function, variable etc), the name of the module users wish to import it from, and the name of the item users wish to import:
 
   ```Swift
-  import itemType MN.IN
-  //MN is ModuleName, IN is ItemName
+  import itemType ModuleName.ItemName  
   ```
 
   When using this form, the item type can be one of:
