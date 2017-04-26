@@ -19,7 +19,7 @@ Team member:
 * [Name spaces](namespace.md)
   * How are name spaces implemented?
   * How are name spaces used?
-* Types
+* [Types](types.md)
     * What types does the language support?
     * Are both reference and value types supported?
     * Can new value types be created?
