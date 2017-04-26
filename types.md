@@ -99,7 +99,7 @@
 
 ---
 
-  * Swift
+* Swift
 
   Swift also supports both reference and value types.
 
@@ -156,7 +156,7 @@
 
 ## Can new value types be created?
 
-  * Java
+* Java
 
   No. In java, all the primitives are value types and users can not create new value types.
 
@@ -166,7 +166,7 @@
 
   However, JAVA is pass by value. To know more , click the link <http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value/40523#40523>.
 
-  * Swift
+* Swift
 
   Yes. There are many kinds of value types in Swift, such as struct, enum, and tuples.
 
