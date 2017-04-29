@@ -73,9 +73,9 @@
 }
 ```
 
-  The following are four parts of defining a class in JAVA:
+   The following are four parts of defining a class in JAVA:
 
-  * Declaring Classes
+   1. Declaring Classes
 
    ```Java
    class MyClass {
@@ -112,7 +112,7 @@
    References:
    <https://docs.oracle.com/javase/tutorial/java/javaOO/classdecl.html>
 
-  * Declaring Member Variables
+   2. Declaring Member Variables
 
    To defining a class, there are three kings of variables can be used:
 
@@ -129,7 +129,7 @@
     References:
     <https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html>
 
-  * Defining Methods
+  3. Defining Methods
 
   Here is a example of defining a method:
 
@@ -153,7 +153,7 @@
   References:
   <https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html>
 
-  * Providing Constructors for Your Classes
+  4. Providing Constructors for Your Classes
 
   A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations—except that they use the name of the class and have no return type. For example, Bicycle has one constructor:
 
@@ -339,7 +339,7 @@
     // perform some initialization here
   }
   ```
-  * Customizing Initialization*
+  * Customizing Initialization
 
   Users can customize the initialization process with input parameters and optional property types, or by assigning constant properties during initialization, as described in the following sections.
 
