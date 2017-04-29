@@ -341,7 +341,7 @@
   ```
   * Customizing Initialization
 
-  Users can customize the initialization process with input parameters and optional property types, or by assigning constant properties during initialization, as described in the following sections.
+    Users can customize the initialization process with input parameters and optional property types, or by assigning constant properties during initialization, as described in the following sections.
 
     * Initialization Parameters
 
@@ -435,22 +435,23 @@
 
   * Default Initializers
 
-  Swift provides a default initializer for any structure or class that provides default values for all of its properties and does not provide at least one initializer itself. The default initializer simply creates a new instance with all of its properties set to their default values.
+    Swift provides a default initializer for any structure or class that provides default values for all of its properties and does not provide at least one initializer itself. The default initializer simply creates a new instance with all of its properties set to their default values.
 
-  This example defines a class called *ShoppingListItem*, which encapsulates the name, quantity, and purchase state of an item in a shopping list:
+    This example defines a class called *ShoppingListItem*, which encapsulates the name, quantity, and purchase state of an item in a shopping list:
 
-  ```Swift
-  class ShoppingListItem {
+    ```Swift
+    class ShoppingListItem {
     var name: String?
     var quantity = 1
     var purchased = false
-  }
-  var item = ShoppingListItem()
-  ```
-  Because all properties of the **ShoppingListItem** class have default values, and because it is a base class with no superclass, **ShoppingListItem** automatically gains a default initializer implementation that creates a new instance with all of its properties set to their default values. (The name property is an optional **String** property, and so it automatically receives a default value of **nil**, even though this value is not written in the code.) The example above uses the default initializer for the **ShoppingListItem** class to create a new instance of the class with initializer syntax, written as **ShoppingListItem()**, and assigns this new instance to a variable called item.
+    }
+    var item = ShoppingListItem()
+    ```
 
-  References:
-  <https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203>
+    Because all properties of the **ShoppingListItem** class have default values, and because it is a base class with no superclass, **ShoppingListItem** automatically gains a default initializer implementation that creates a new instance with all of its properties set to their default values. (The name property is an optional **String** property, and so it automatically receives a default value of **nil**, even though this value is not written in the code.) The example above uses the default initializer for the **ShoppingListItem** class to create a new instance of the class with initializer syntax, written as **ShoppingListItem()**, and assigns this new instance to a variable called item.
+
+    References:
+    <https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203>
 
 
 
@@ -458,6 +459,7 @@
 ## Destructing/de-initializing
 
 * JAVA
+
   Java is garbage-collected, so users do not need destructing.
 
   There is a **finalize** method, but the VM specification does allow for VM implementations to never call them. Generally speaking the code in the finalize() method of any object can be called by the VM before the object is garbage collected, but as this is not mandatory.
