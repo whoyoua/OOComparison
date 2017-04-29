@@ -28,7 +28,7 @@ Team member:
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
-* Instance reference name in data type (class)
+* [Instance reference name in data type (class)](instance.md)
   * this?  self?
 * Properties
   * Getters and setters...write your own or built in?
