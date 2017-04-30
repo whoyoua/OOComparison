@@ -30,7 +30,7 @@ Team member:
   * Destructing/de-initializing
 * [Instance reference name in data type (class)](instance.md)
   * this?  self?
-* Properties
+* [Properties](properties.md)
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
