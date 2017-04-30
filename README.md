@@ -59,9 +59,9 @@ Team member:
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
-* Procedural programming
+* [Procedural programming](Procedural_programming.md)
   * Does the language support procedural programming?
-* Functional programming
+* [Functional programming](functional programming.md)
   * Does the language support functional programming?
 * Multithreading
   * Threads or thread-like abilities
