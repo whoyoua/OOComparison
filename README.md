@@ -34,7 +34,7 @@ Team member:
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
-* Interfaces / protocols
+* [Interfaces / protocols](interfaces.md)
   * What does the language support?
   * What abilities does it have?
   * How is it used?
