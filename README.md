@@ -53,7 +53,7 @@ Team member:
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
 * [Errors and exception handling](error.md)
-* Lambda expressions, closures, or functions as types
+* [Lambda expressions, closures, or functions as types](lambda.md)
 * Implementation of listeners and event handlers
 * Singleton
   * How is a singleton implemented?
