@@ -38,7 +38,7 @@ Team member:
   * What does the language support?
   * What abilities does it have?
   * How is it used?
-* Inheritance / extension
+* [Inheritance / extension](inheritance.md)
 * Reflection
   * What reflection abilities are supported?
   * How is reflection used?
