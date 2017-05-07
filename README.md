@@ -54,7 +54,7 @@ Team member:
   * Does the language have features for handling null/nil references?
 * [Errors and exception handling](error.md)
 * [Lambda expressions, closures, or functions as types](lambda.md)
-* Implementation of listeners and event handlers
+* [Implementation of listeners and event handlers](listeners and handlers.md)
 * Singleton
   * How is a singleton implemented?
   * Can it be made thread-safe?
