@@ -39,7 +39,7 @@ Team member:
   * What abilities does it have?
   * How is it used?
 * [Inheritance / extension](inheritance.md)
-* Reflection
+* [Reflection](reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
 * Memory management
