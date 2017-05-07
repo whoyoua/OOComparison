@@ -52,7 +52,7 @@ Team member:
 * [Null/nil references](null.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
-* Errors and exception handling
+* [Errors and exception handling](error.md)
 * Lambda expressions, closures, or functions as types
 * Implementation of listeners and event handlers
 * Singleton
