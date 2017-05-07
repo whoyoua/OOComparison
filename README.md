@@ -49,7 +49,7 @@ Team member:
   * Automatic reference counting?
 * [Comparisons of references and values](comparisons.md)
   * How are values compared? (i.e. comparing two strings)
-* Null/nil references
+* [Null/nil references](null.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
 * Errors and exception handling
