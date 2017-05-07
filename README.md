@@ -42,7 +42,7 @@ Team member:
 * [Reflection](reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
-* Memory management
+* [Memory management](memory.md)
   * How is it handled?
   * How does it work?
   * Garbage collection?
