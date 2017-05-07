@@ -47,7 +47,7 @@ Team member:
   * How does it work?
   * Garbage collection?
   * Automatic reference counting?
-* Comparisons of references and values
+* [Comparisons of references and values](comparisons.md)
   * How are values compared? (i.e. comparing two strings)
 * Null/nil references
   * Which does the language use? (null/nil/etc)
