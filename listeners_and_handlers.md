@@ -77,7 +77,7 @@
 
   Here is a example :
 
-  ```Swift
+    ```Swift
     protocol DiceGame {
       var dice: Dice { get }
       func play()
@@ -137,13 +137,13 @@
             print("The game lasted for \(numberOfTurns) turns")
         }
       }
-  ```
+      ```
 
     This version is adapted to use a **Dice** instance for its dice-rolls, to adopt the **DiceGame** protocol, and to notify a **DiceGameDelegate** about its progress. Then it shows a class called **DiceGameTracker**, which dopts the **DiceGameDelegate** protocol.
 
     Here is how to use the **DiceGameTracker**:
 
-    ```Swift
+      ```Swift
       let tracker = DiceGameTracker()
       let game = SnakesAndLadders()
       game.delegate = tracker
@@ -156,7 +156,7 @@
       // Rolled a 5
       // The game lasted for 4 turns
 
-    ```
+      ```
 
     References:
 
