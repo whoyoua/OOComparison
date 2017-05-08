@@ -138,7 +138,7 @@
         }
       }
 
-      ```
+    ```
 
   This version is adapted to use a **Dice** instance for its dice-rolls, to adopt the **DiceGame** protocol, and to notify a **DiceGameDelegate** about its progress. Then it shows a class called **DiceGameTracker**, which dopts the **DiceGameDelegate** protocol.
 
