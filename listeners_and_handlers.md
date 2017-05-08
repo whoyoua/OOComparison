@@ -137,11 +137,12 @@
             print("The game lasted for \(numberOfTurns) turns")
         }
       }
+
       ```
 
-    This version is adapted to use a **Dice** instance for its dice-rolls, to adopt the **DiceGame** protocol, and to notify a **DiceGameDelegate** about its progress. Then it shows a class called **DiceGameTracker**, which dopts the **DiceGameDelegate** protocol.
+  This version is adapted to use a **Dice** instance for its dice-rolls, to adopt the **DiceGame** protocol, and to notify a **DiceGameDelegate** about its progress. Then it shows a class called **DiceGameTracker**, which dopts the **DiceGameDelegate** protocol.
 
-    Here is how to use the **DiceGameTracker**:
+  Here is how to use the **DiceGameTracker**:
 
     ```Swift
         let tracker = DiceGameTracker()
