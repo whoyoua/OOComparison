@@ -8,7 +8,7 @@ OO Languages:
 Team member:
 * Mohan Li
 
-### Comparison Criteria
+### Comparison Contents
 
 * [Language purpose/genesis](purpose.md)
   * Why was the language created?
@@ -55,7 +55,7 @@ Team member:
 * [Errors and exception handling](error.md)
 * [Lambda expressions, closures, or functions as types](lambda.md)
 * [Implementation of listeners and event handlers](listeners and handlers.md)
-* Singleton
+* [Singleton](singleton.md)
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
@@ -63,6 +63,6 @@ Team member:
   * Does the language support procedural programming?
 * [Functional programming](functional_programming.md)
   * Does the language support functional programming?
-* Multithreading
+* [Multithreading](multitasking.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
