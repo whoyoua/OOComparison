@@ -143,7 +143,7 @@
 
     Here is how to use the **DiceGameTracker**:
 
-      ```Swift
+    ```Swift
         let tracker = DiceGameTracker()
         let game = SnakesAndLadders()
         game.delegate = tracker
@@ -155,11 +155,11 @@
         // Rolled a 4
         // Rolled a 5
         // The game lasted for 4 turns
-      ```
+    ```
 
-    References:
+  References:
 
-    <https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html>
+  <https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html>
 
 ---
 [Go back to README.md](README.md)
