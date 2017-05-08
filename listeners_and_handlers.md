@@ -21,9 +21,9 @@
   3. Include code that implements the methods in listener interface. For example:
 
   ```JAVA
-    public void actionPerformed(ActionEvent e) {
-      ...//code that reacts to the action...
-    }
+      public void actionPerformed(ActionEvent e) {
+        ...//code that reacts to the action...
+      }
   ```
 
   Here is the whole program. [AL.java](code/AL.java)
@@ -33,8 +33,8 @@
   For example, the **MouseListen** interface contains five methods: **mousePressed**, **mouseReleased**, **mouseEntered**, **mouseExited**, and **mouseClicked**. Even if you care only about mouse clicks, if your class directly implements **MouseListener**, then you must implement all five MouseListener methods. Methods for those events you do not care about can have empty bodies. Here is an example:
 
   ```JAVA
-    //An example that implements a listener interface directly.
-    public class MyClass implements MouseListener {
+      //An example that implements a listener interface directly.
+      public class MyClass implements MouseListener {
       ...
         someObject.addMouseListener(this);
         ...
@@ -56,8 +56,8 @@
 
         public void mouseClicked(MouseEvent e) {
         ...//Event listener implementation goes here...
+      }
     }
-  }
   ```
 
   References:
@@ -144,18 +144,17 @@
     Here is how to use the **DiceGameTracker**:
 
       ```Swift
-      let tracker = DiceGameTracker()
-      let game = SnakesAndLadders()
-      game.delegate = tracker
-      game.play()
-      // Started a new game of Snakes and Ladders
-      // The game is using a 6-sided dice
-      // Rolled a 3
-      // Rolled a 5
-      // Rolled a 4
-      // Rolled a 5
-      // The game lasted for 4 turns
-
+        let tracker = DiceGameTracker()
+        let game = SnakesAndLadders()
+        game.delegate = tracker
+        game.play()
+        // Started a new game of Snakes and Ladders
+        // The game is using a 6-sided dice
+        // Rolled a 3
+        // Rolled a 5
+        // Rolled a 4
+        // Rolled a 5
+        // The game lasted for 4 turns
       ```
 
     References:
