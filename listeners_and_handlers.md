@@ -33,31 +33,31 @@
   For example, the **MouseListen** interface contains five methods: **mousePressed**, **mouseReleased**, **mouseEntered**, **mouseExited**, and **mouseClicked**. Even if you care only about mouse clicks, if your class directly implements **MouseListener**, then you must implement all five MouseListener methods. Methods for those events you do not care about can have empty bodies. Here is an example:
 
   ```JAVA
-  //An example that implements a listener interface directly.
-  public class MyClass implements MouseListener {
-  ...
-      someObject.addMouseListener(this);
-  ...
-  /* Empty method definition. */
-  public void mousePressed(MouseEvent e) {
-  }
+    //An example that implements a listener interface directly.
+    public class MyClass implements MouseListener {
+      ...
+        someObject.addMouseListener(this);
+        ...
+        /* Empty method definition. */
+        public void mousePressed(MouseEvent e) {
+        }
 
-  /* Empty method definition. */
-  public void mouseReleased(MouseEvent e) {
-  }
+        /* Empty method definition. */
+        public void mouseReleased(MouseEvent e) {
+        }
 
-  /* Empty method definition. */
-  public void mouseEntered(MouseEvent e) {
-  }
+        /* Empty method definition. */
+        public void mouseEntered(MouseEvent e) {
+        }
 
-  /* Empty method definition. */
-  public void mouseExited(MouseEvent e) {
-  }
+        /* Empty method definition. */
+        public void mouseExited(MouseEvent e) {
+        }
 
-  public void mouseClicked(MouseEvent e) {
-      ...//Event listener implementation goes here...
+        public void mouseClicked(MouseEvent e) {
+        ...//Event listener implementation goes here...
+    }
   }
-}
   ```
 
   References:
