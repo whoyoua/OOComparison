@@ -52,7 +52,7 @@ Team member:
 * [Null/nil references](null.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
-* [Errors and exception handling](error.md)
+* [Errors and exception handling](errors.md)
 * [Lambda expressions, closures, or functions as types](lambda.md)
 * [Implementation of listeners and event handlers](listeners_and_handlers.md)
 * [Singleton](singleton.md)
@@ -63,6 +63,6 @@ Team member:
   * Does the language support procedural programming?
 * [Functional programming](functional_programming.md)
   * Does the language support functional programming?
-* [Multithreading](multitasking.md)
+* [Multithreading](multithreading.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
